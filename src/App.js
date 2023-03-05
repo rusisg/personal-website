@@ -1,8 +1,13 @@
-import Header from "./components/Header";
+import Buttons from "./components/Buttons";
+import Contacts from "./components/Contacts";
 
 function App() {
   return (
-      <Header />
+      <div className="wrapper">
+        <Buttons />
+        <Contacts />
+        {/*<Content />*/}
+      </div>
   );
 }
 
