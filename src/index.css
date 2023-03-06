@@ -8,6 +8,9 @@ body {
   color: #000000;
   background-color: #609966;
 }
+.header {
+  display: inline;
+}
 
 /*buttons...*/
 
@@ -30,8 +33,34 @@ body {
 }
 .buttons li:hover {
   background-color: #EDF1D6;
-  border-bottom: #111111 solid 3px;
 }
 
 /*contacts...*/
+.contacts {
+  float: right;
+}
 
+.contacts a {
+  margin: 10px;
+}
+
+.clickable_btns {
+  display: inline;
+}
+.clickable_btns a {
+}
+
+.clickable_btns a:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.phone svg {
+  margin: 10px;
+  position: relative;
+}
+.phone::after {
+  position: absolute;
+  content: '8 (778) 522 00 38';
+  margin-top: 12px;
+  margin-left: 20px;
+}
