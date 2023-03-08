@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 
 body {
@@ -9,45 +8,52 @@ body {
   background-color: #609966;
 }
 .header {
-  display: inline;
+  display: flex;
 }
 
-/*buttons...*/
-
 .buttons {
+  display: inline-block;
+  width: 60%;
+  display: flex;
   font-size: 24px;
   margin: 86px 150px;
 }
+
 .buttons a {
-  text-decoration: none;
   margin-right: 160px;
-}
-.buttons li {
+  cursor: pointer;
+  text-decoration: none;
   color: black;
   font-family: 'Poppins', sans-serif;
+}
+
+.buttons li {
+  flex-wrap: wrap;
   display: inline;
-  border-radius: 28px;
+  list-style: none;
+  transition: transform 500ms ease;
   background-color: #9DC08B;
   padding: 10px 60px;
-  transition: 0.3s;
+  border-radius: 28px;
 }
 .buttons li:hover {
+  transform: scale(1.05);
   background-color: #EDF1D6;
 }
 
 /*contacts...*/
 .contacts {
-  float: right;
+  display: inline-block;
+  width: 40%;
 }
 
 .contacts a {
   margin: 10px;
+
 }
 
 .clickable_btns {
-  display: inline;
-}
-.clickable_btns a {
+
 }
 
 .clickable_btns a:hover {
@@ -61,6 +67,6 @@ body {
 .phone::after {
   position: absolute;
   content: '8 (778) 522 00 38';
-  margin-top: 12px;
-  margin-left: 20px;
+  margin-top: 15px;
+  margin-left: 10px;
 }

@@ -5,8 +5,7 @@ function App() {
   return (
       <div className="wrapper">
           <div className="header">
-              <Buttons />
-              <Contacts />
+              <Buttons /> <Contacts />
           </div>
           <div className="content">
               {/*<Content />*/}

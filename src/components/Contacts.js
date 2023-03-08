@@ -19,7 +19,6 @@ const Contacts = () => {
                     </svg>
                 </a>
             </div>
-            <br/>
             <div className="phone">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#111111"
                      className="bi bi-telephone-plus" viewBox="0 0 16 16">
