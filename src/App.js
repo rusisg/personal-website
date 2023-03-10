@@ -1,5 +1,6 @@
 import Buttons from "./components/Buttons";
 import Contacts from "./components/Contacts";
+import Content from "./components/Content";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
               <Buttons /> <Contacts />
           </div>
           <div className="content">
-              {/*<Content />*/}
+              <Content />
           </div>
       </div>
   );
