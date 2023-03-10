@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
-const Contacts = () => {
-    return (
-        <div className="contacts">
+export default function Contacts() {
+  return (
+    <div className="contacts">
             <div className="clickable_btns">
                 <a className="whatsappSvg" href="/">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#111111"
@@ -28,9 +28,6 @@ const Contacts = () => {
                           d="M12.5 1a.5.5 0 0 1 .5.5V3h1.5a.5.5 0 0 1 0 1H13v1.5a.5.5 0 0 1-1 0V4h-1.5a.5.5 0 0 1 0-1H12V1.5a.5.5 0 0 1 .5-.5z"/>
                 </svg>
             </div>
-            {/*<span className="phone"> 8 (778) 522 00 38</span>*/}
         </div>
-    );
-};
-
-export default Contacts;
+  )
+}
