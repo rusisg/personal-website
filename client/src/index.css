@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #000000;
+  background-color: #609966;
+}
+.header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttons {
+  display: inline-block;
+  width: 60%;
+  font-size: 22px;
+  margin: 86px 150px;
+}
+
+.buttons a {
+  margin-left: 120px ;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  float: left;
+}
+
+.buttons li {
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+  display: inline;
+  transition: 0.2s ease-in;
+  background-color: #9DC08B;
+  padding: 10px 60px;
+  border-radius: 28px;
+}
+.buttons li:hover {
+  background-color: #EDF1D6;
+}
+
+/*contacts...*/
+.contacts {
+  display: inline-block;
+  margin-top: 54px;
+}
+
+.contacts a {
+  margin: 12px;
+}
+
+.clickable_btns {
+  margin-left: 50px;
+}
+
+.clickable_btns a:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.phone svg {
+  margin: 12px;
+  position: relative;
+}
+.phone::after {
+  position: absolute;
+  content: '8 (778) 522 00 38';
+  margin-top: 13px;
+  margin-left: 10px;
+  white-space: nowrap;
+}
+
+/* content... */
+
+.content {
+margin: auto;
+width: 1600px;
+height: 620px;
+left: 160px;
+top: 230px;
+
+background: #EDF1D6;
+border-radius: 15px;
+}
+
+main h1 {
+  position: absolute;
+  margin-left: 97px;
+  width: 450.85px;
+  height: 99.64px;
+  left: 192.08px;
+  top: 299.45px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+main p {
+  position: absolute;
+  width: 712.34px;
+  height: 222.44px;
+  left: 257.18px;
+  top: 441.36px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 45px;
+
+  color: #000000;
+}
+
+.img {
+  position: absolute;
+  width: 490.92px;
+  height: 487.14px;
+  left: 1155.87px;
+  top: 308.51px;
+
+  background: url(../public/Screenshot\ from\ 2023-03-11\ 01-39-47.png);
+  background-repeat: no-repeat;
+}
